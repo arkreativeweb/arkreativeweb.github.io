@@ -1,112 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Abdul Rozak Programer ARK Web</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="">
-
-  <!-- Font Awesome if you need it
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  -->
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> 
-  <!--Replace with your tailwind.css once created-->
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkreative Web | Jasa Pembuatan Website Profesional</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+        }
+        .gradient-text {
+            background: linear-gradient(120deg, #4F46E5, #2563EB);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .btn-primary {
+            background-image: linear-gradient(to right, #4F46E5, #2563EB);
+            box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+        }
+        .section-bg {
+            background: linear-gradient(145deg, #E2E8FF, #FFFFFF);
+        }
+        .shadow-md-custom {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+        .transition-fast {
+            transition: all 0.2s ease-in-out;
+        }
+    </style>
 </head>
+<body class="bg-gray-50">
 
-<body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover" style="background-image:url('https://i.ibb.co.com/0tYnydS/Screenshot-2024-12-20-093458.png');">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-3xl font-bold text-blue-600">
+                    Arkreative<span class="text-gray-800">Web</span>
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-fast">Tentang Kami</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition-fast">Layanan</a>
+                    <a href="#process" class="text-gray-600 hover:text-blue-600 transition-fast">Proses Kerja</a>
+                    <a href="#contact" class="btn-primary text-white px-6 py-2 rounded-full transition-fast">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-br from-blue-100 to-blue-300 py-32 pt-40">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-5xl font-bold text-gray-800 mb-8">
+                    Kisah Website Impian Anda Dimulai Di Sini
+                </h1>
+                <p class="text-xl text-gray-700 leading-relaxed mb-12">
+                    Kami di Arkreative Web percaya bahwa setiap bisnis memiliki cerita unik untuk diceritakan. Website Anda bukan hanya sekadar alamat online, melainkan representasi dari identitas, nilai, dan visi Anda. Kami hadir untuk mewujudkan kisah itu dalam desain yang memukau dan fungsionalitas yang tak tertandingi.
+                </p>
+                <a href="https://arkreativeweb.com/" class="btn-primary text-white px-8 py-4 rounded-full transition-fast">
+                    Jasa Pembuatan Website
+                </a>
+            </div>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white section-bg">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">
+                    Tentang Arkreative Web: Lebih Dari Sekadar Jasa Pembuatan Website
+                </h2>
+                <div class="shadow-md-custom p-8 rounded-lg">
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Kami adalah tim yang bersemangat dan berdedikasi, terdiri dari desainer kreatif, pengembang handal, dan ahli strategi digital. Lebih dari sekadar menciptakan website, kami membangun jembatan antara bisnis Anda dan audiens target Anda. Kami memahami bahwa setiap detail penting, mulai dari tata letak visual hingga pengalaman pengguna yang intuitif.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Dengan pengalaman bertahun-tahun di industri ini, kami telah membantu berbagai bisnis dari berbagai sektor untuk mencapai tujuan mereka. Kami selalu mengikuti perkembangan tren terbaru dan teknologi terdepan untuk memastikan bahwa website Anda tidak hanya terlihat bagus, tetapi juga berfungsi dengan optimal.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Kami percaya pada kolaborasi yang erat dengan klien kami. Kami mendengarkan dengan seksama kebutuhan dan harapan Anda, dan kami bekerja sama untuk menciptakan solusi yang disesuaikan dengan tujuan bisnis Anda. Kami berkomitmen untuk memberikan layanan yang transparan, responsif, dan berkualitas tinggi.
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
-    
-	<!--Main Col-->
-	<div id="profile" class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
-	
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">
+                    Layanan Kami: Solusi Website Lengkap untuk Setiap Kebutuhan
+                </h2>
+                <div class="shadow-md-custom p-8 rounded-lg">
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Kami menawarkan berbagai layanan yang dirancang untuk memenuhi kebutuhan website Anda, mulai dari perencanaan hingga peluncuran dan pemeliharaan. Berikut adalah beberapa layanan utama kami:
+                </p>
+                <ul class="list-disc list-inside text-lg text-gray-700 mb-6">
+                    <li><b>Desain Website Profesional:</b> Kami menciptakan desain yang memukau dan sesuai dengan identitas brand Anda.</li>
+                    <li><b>Pengembangan Website Responsif:</b> Website Anda akan tampil sempurna di semua perangkat, dari desktop hingga smartphone.</li>
+                    <li><b>Optimasi SEO:</b> Kami mengoptimalkan website Anda agar mudah ditemukan di mesin pencari.</li>
+                    <li><b>Pengembangan E-commerce:</b> Kami membantu Anda membangun toko online yang sukses.</li>
+                    <li><b>Pemeliharaan Website:</b> Kami memastikan website Anda selalu aman, cepat, dan berfungsi dengan baik.</li>
+                    <li><b>Konsultasi Website:</b> Kami memberikan saran ahli untuk membantu Anda membuat keputusan yang tepat.</li>
+                </ul>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Apapun kebutuhan website Anda, kami siap membantu Anda mewujudkannya. Hubungi kami hari ini untuk konsultasi gratis!
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<div class="p-4 md:p-12 text-center lg:text-left">
-			<!-- Image for mobile view-->
-			<div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('https://i.ibb.co.com/0tYnydS/Screenshot-2024-12-20-093458.png')"></div>
-			
-			<h1 class="text-3xl font-bold pt-8 lg:pt-0">Abdul Rozak</h1>
-			<div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
-			<p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start"><svg class="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z"/></svg> What you do</p>
-			<p class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"><svg class="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4h3.82zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14zm-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4zm.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4H8.33zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4zm.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51H3.07zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51h3.22zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6zM3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6z"/></svg> Your Location - Karawang</p>
-			<p class="pt-8 text-sm">Abdul Rozak is also a mountain climber inspired by the beauty of nature. This experience gives him a unique perspective in tackling complex digital projects with calmness and perseverance.</p>
+    <!-- Process Section -->
+    <section id="process" class="py-24 bg-white section-bg">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">
+                    Proses Kerja Kami: Transparan, Kolaboratif, dan Berorientasi Hasil
+                </h2>
+                 <div class="shadow-md-custom p-8 rounded-lg">
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Kami percaya pada proses kerja yang transparan, kolaboratif, dan berorientasi pada hasil. Kami melibatkan Anda di setiap langkah, mulai dari perencanaan hingga peluncuran. Berikut adalah gambaran umum tentang proses kerja kami:
+                </p>
+                <ol class="list-decimal list-inside text-lg text-gray-700 mb-6">
+                    <li><b>Konsultasi Awal:</b> Kami mendengarkan kebutuhan dan harapan Anda.</li>
+                    <li><b>Perencanaan:</b> Kami membuat rencana yang disesuaikan dengan tujuan bisnis Anda.</li>
+                    <li><b>Desain:</b> Kami menciptakan desain yang memukau dan sesuai dengan identitas brand Anda.</li>
+                    <li><b>Pengembangan:</b> Kami membangun website Anda dengan teknologi terdepan.</li>
+                    <li><b>Pengujian:</b> Kami memastikan website Anda berfungsi dengan optimal.</li>
+                    <li><b>Peluncuran:</b> Kami meluncurkan website Anda ke dunia.</li>
+                    <li><b>Pemeliharaan:</b> Kami memastikan website Anda selalu aman, cepat, dan berfungsi dengan baik.</li>
+                </ol>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Kami selalu terbuka untuk umpan balik dan saran Anda. Kami berkomitmen untuk memberikan layanan yang terbaik dan memastikan Anda puas dengan hasilnya.
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<div class="pt-12 pb-8">
-				<button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
-				  Get In Touch
-				</button> 
-			</div>
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">
+                    Hubungi Kami: Mari Wujudkan Website Impian Anda Bersama!
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
+                    Siap untuk memulai perjalanan website Anda? Hubungi kami hari ini untuk konsultasi gratis! Kami akan dengan senang hati menjawab pertanyaan Anda dan memberikan saran ahli untuk membantu Anda membuat keputusan yang tepat.
+                </p>
+                <div class="text-center">
+                    <a href="https://arkreativeweb.com/" class="text-blue-600 hover:text-blue-700 transition-fast">www.arkreativeweb.com</a> |
+                    <a href="tel:+6281234567890" class="text-blue-600 hover:text-blue-700 transition-fast">+62 812 4422 7776 </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
-				<a class="link" href="#" data-tippy-content="@facebook_abdulrojakprogramer"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/></svg></a>
-				<a class="link" href="#" data-tippy-content="@twitter_arkweb"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a>
-				<a class="link" href="#" data-tippy-content="@arkreativeweb"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
-			</div>
-			
-			<!-- Use https://simpleicons.org/ to find the svg for your preferred product --> 
+    <!-- Footer -->
+    <footer class="py-10 bg-gray-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Arkreative Web. All rights reserved.</p>
+        </div>
+    </footer>
 
-		</div>
-
-	</div>
-	
-	<!--Img Col-->
-	<div class="w-full lg:w-2/5">
-		<!-- Big profile image for side bar (desktop) -->
-		<img src="https://i.ibb.co.com/Dwmtcxm/Screenshot-2024-12-23-101739.png" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
-		<!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A -->
-		
-	</div>
-	
-	
-	<!-- Pin to top right corner -->
-	  <div class="absolute top-0 right-0 h-12 w-18 p-4">
-		<button class="js-change-theme focus:outline-none">🌙</button>
-	  </div>
-
-</div>
-
-	<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
-	<script src="https://unpkg.com/tippy.js@4"></script>
-	<script>
-		//Init tooltips
-		tippy('.link',{
-		  placement: 'bottom'
-		})
-
-		//Toggle mode
-		const toggle = document.querySelector('.js-change-theme');
-		const body = document.querySelector('body');
-		const profile = document.getElementById('profile');
-		
-		
-		toggle.addEventListener('click', () => {
-
-		  if (body.classList.contains('text-gray-900')) {
-			toggle.innerHTML = "☀️";
-			body.classList.remove('text-gray-900');
-			body.classList.add('text-gray-100');
-			profile.classList.remove('bg-white');
-			profile.classList.add('bg-gray-900');
-		  } else
-		  {
-			toggle.innerHTML = "🌙";
-			body.classList.remove('text-gray-100');
-			body.classList.add('text-gray-900');
-			profile.classList.remove('bg-gray-900');			
-			profile.classList.add('bg-white');
-			
-		  }
-		});
-		
-    </script>
-	
 </body>
-
 </html>
